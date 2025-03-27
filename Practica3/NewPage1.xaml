@@ -5,10 +5,10 @@
              Title="NewPage1">
     <VerticalStackLayout>
         <Label 
-            Text="Pagina de los unicornios"
+            Text="Unicornios"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-        <Button Text="Unicornios"
+        <Button Text="Información de los Unicornios"
         Clicked="DetallesBTN"
         x:Name="btnLBL"
         />

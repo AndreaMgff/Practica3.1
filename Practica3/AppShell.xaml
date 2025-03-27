@@ -6,23 +6,35 @@
     xmlns:local="clr-namespace:Practica3"
     Shell.FlyoutBehavior="Flyout"
     Title="Practica3">
-    <FlyoutItem Title="Home">
+    <FlyoutItem Title="Inicio">
         <ShellContent
-    Title="Home"
+    Title="Inicio"
     ContentTemplate="{DataTemplate local:MainPage}"
     Route="MainPage" />
     </FlyoutItem>
-    <FlyoutItem Title="Pagina 1">
+    <FlyoutItem Title="Unicornios">
         <ShellContent
-        Title="Pagina 1"
+        Title="Unicornios"
         ContentTemplate="{DataTemplate local:NewPage1}"
         Route="MainPage" />
     </FlyoutItem>
-    <FlyoutItem Title="Pagina 2">
+    <FlyoutItem Title="Fenrir">
         <ShellContent
-        Title="Pagina 2"
+        Title="Fenrir"
         ContentTemplate="{DataTemplate local:NewPage2}"
         Route="MainPage" />
+    </FlyoutItem>
+    <FlyoutItem Title="Fenix">
+        <ShellContent
+        Title="Fenix"
+        ContentTemplate="{DataTemplate local:NewPage3}"
+        Route="MainPage" />
+    </FlyoutItem>
+    <FlyoutItem Title="Dragón">
+        <ShellContent
+    Title="Dragón"
+    ContentTemplate="{DataTemplate local:NewPage4}"
+    Route="MainPage" />
     </FlyoutItem>
 
 
