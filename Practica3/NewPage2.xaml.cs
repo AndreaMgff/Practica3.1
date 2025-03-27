@@ -2,6 +2,9 @@ namespace Practica3;
 
 public partial class NewPage2 : ContentPage //completa
 {
+    /// <summary>
+    /// Inicializa la pagina 
+    /// </summary>
 	public NewPage2()
 	{
 		InitializeComponent();
@@ -15,7 +18,7 @@ public partial class NewPage2 : ContentPage //completa
 	{
         Navigation.PushAsync(new Detalles
         {
-            BindingContext = new Class1 { Texto = "Fenrir es un lobo gigante y feroz que desempeña un papel crucial en el Ragnarök, el fin del mundo en la mitología nórdica. Según la profecía, Fenrir se liberará y desencadenará el caos en el mundo." }
+            BindingContext = new Class1 { Texto = "Fenrir solo era un cachorro, pero conforme se alimentó y empezó a crecer, llegó un punto que fue imposible controlarlo. Los Æsir decidieron retenerlo en Asgard, para mantenerlo vigilado, pero nadie tenía el valor suficiente para cuidar de él. Al ver el enorme tamaño que estaba alcanzando, decidieron atarlo. Dos veces fallaron los dioses en su intento por apresarlo: primero con la cadena Leding y después con la todavía más fuerte Droma, que Fenrir se dejó poner, y de las que se liberó fácilmente. Entonces, los dioses acudieron a los enanos, que fabricaron la cadena Gleipnir, que era sedosa como un lazo pero estaba forjada con seis ingredientes mágicos: una pisada de gato, una barba de mujer, el aliento de un pez, las raíces de una montaña, los nervios de un oso y la saliva de un pájaro. Llevaron la cadena a Fenrir, que al saber que estaba compuesta por ingredientes mágicos, se negó a colocársela. Los Aesir le prometieron que, si no lograba romper la cadena, lo liberarían, porque ya no les parecería una amenaza, pero Fenrir, sospechando, volvió a negarse, pero accedió a ponérsela si alguno de los dioses aceptaba poner una mano en su hocico, como prueba de buena fe. Solamente Tyr, sobrino de Odín, se presentó como voluntario para poner la mano en las fauces del lobo. Entonces, Fenrir permitió que lo ataran, pero al ver que no lograba liberarse, cerró el hocico y se quedó con la mano de Tyr." }
         });
     }
 }

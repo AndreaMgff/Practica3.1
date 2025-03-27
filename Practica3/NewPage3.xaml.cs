@@ -2,6 +2,9 @@ namespace Practica3;
 
 public partial class NewPage3 : ContentPage
 {
+    /// <summary>
+    /// Inicializa la pagina 
+    /// </summary>
 	public NewPage3()
 	{
 		InitializeComponent();

@@ -28,7 +28,7 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" 
             TextColor="White"
-            FontSize="18"
+            FontSize="16"
             HorizontalTextAlignment="Center"/>
         <Button 
             Text="Saber más sobre Dragones"

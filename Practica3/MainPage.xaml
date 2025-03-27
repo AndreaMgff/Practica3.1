@@ -2,7 +2,12 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Practica3.MainPage">
-
+    <ContentPage.Background>
+        <LinearGradientBrush>
+            <GradientStop Color="Black" Offset="0.0"/>
+            <GradientStop Color="Black" Offset="1.0"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
@@ -15,12 +20,14 @@
 
             <Label
                 Text="¡Animales Mitológicos!"
+                TextColor="White"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
 
             <Label
-                Text="Descubre aquí algunos de los animales mitológicos"
+                Text="Conoce la historia detrás de los animales mitológicos más icónicos"
                 Style="{StaticResource SubHeadline}"
+                TextColor="White"
                 SemanticProperties.HeadingLevel="Level2"
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
 
