@@ -6,7 +6,12 @@ public partial class NewPage2 : ContentPage //completa
 	{
 		InitializeComponent();
 	}
-	private void DetallesBTN (object sender, EventArgs e)
+    /// <summary>
+    /// Cambiamos los valores de la pagina secundaria Detalles.xaml pudiendo reutilizarla con todas las demas paginas del menu. En este caso añadimos la informacion del Fenrir
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
+    private void DetallesBTN (object sender, EventArgs e)
 	{
         Navigation.PushAsync(new Detalles
         {

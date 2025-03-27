@@ -2,10 +2,10 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Practica3.NewPage3"
-             Title="NewPage3">
+             Title="Fénix">
     <VerticalStackLayout>
         <Label 
-            Text="Pagina Fenix!"
+            Text="Descubre la historia del Fénix y su sorprendente equivalente en el mundo animal."
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Button Text="Saber más sobre Fenrir"

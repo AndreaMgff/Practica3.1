@@ -6,6 +6,11 @@ public partial class NewPage1 : ContentPage //completa
     {
         InitializeComponent();
     }
+    /// <summary>
+    /// Cambiamos los valores de la pagina secundaria Detalles.xaml pudiendo reutilizarla con todas las demas paginas del menu. En este caso añadimos la informacion del unicornios
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     private void DetallesBTN(object sender, EventArgs e)
     {
         Navigation.PushAsync(new Detalles
